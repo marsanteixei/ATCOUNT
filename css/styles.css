@@ -1,0 +1,192 @@
+body{
+  background-color: #54aae9;
+}
+.msg-container{
+	background-color: #54aae9;
+	padding: 20px;
+}
+.msg{
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px;
+	border: solid 1px #54aae9;
+	text-align: center;
+}
+.msg.error{
+	color: #842029;
+	background-color: #F8D7DA;
+	border-color: #F5C2C7;
+}
+
+.msg.success{
+	color: #0F5132;
+	background-color: #D1E7DD;
+	border-color: #BADBCC;
+}
+
+#main-container{
+	color: #FFF;
+	min-height: 65vh;
+	padding: 40px;
+}
+
+#main-container2{
+	color: #000000;
+	min-height: 65vh;
+	padding: 40px;
+}
+
+
+.navibar-brand{
+	position relative;
+}
+
+#logo{
+	width: 50px;
+}
+
+#atcount-title{
+	color: #FFF;
+	position: absolute;
+	font-size: 35px;
+	bottom: 15px;
+	left: 70px;
+	font-weight: bold:
+}
+
+#main-navbar{
+	background-color: #05092a;
+}
+.bold{
+	front-weight: bold;
+}
+
+#footer{
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+}
+
+#social-container ul{
+	list-style-type: none;
+	padding: 0;
+}
+#social-container li{
+	display: inline-block;
+	margin: 0 20px;
+}
+
+#social-container li{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	transition: .5s;
+	line-height: 3;
+}
+#social-container li: hover{
+	background-color: #333;
+}
+
+#social-container a{
+	transition: .5s;
+}
+
+#social-container li i{
+	font-size: 40px;
+}
+
+#auth-row{
+	justify-content: space-evenly;
+}
+
+#login-container h1{
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#login-container form{
+	max-width: 400px;
+	margin: 30px auto;
+}
+
+.card-btn{
+  color: #F0FFF0;
+  background-color: #000000;
+  border: 2px solid #000000; 
+  width: 100%;  
+}
+.card-btn: hover{
+	background-color: transparent;
+	color: #000000;
+	border-color: #000000;
+}
+.reset{
+	color: #000080;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+/* Menu aluno */
+
+.tbt{
+	 font-size:16px;
+	 background-color:blue;
+	 margin-top:0px;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 margin-bottom:20px; 
+	 
+				
+}
+.t{
+				
+ margin-right:50px;
+ margin-left:50px;
+ display:inline;
+}
+			
+.b{
+  margin-right:50px;
+  display:inline;
+				
+}
+.tbt a{
+	color: white;
+}
+
+#navbar {
+	 min-width: 30%;
+	
+}
+
+.navbar-nav {
+	
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #FFF;
+  transition: .5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #999;
+}
+.form-group{
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+	display: inline;
+    margin-right: 15px;
+}
